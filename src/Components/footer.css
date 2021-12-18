@@ -1,0 +1,14 @@
+.footer {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    background-image: url('../assets/footer-12.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.footer span{
+    color:white;
+}

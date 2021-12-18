@@ -1,0 +1,43 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 8fr);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 95%;
+    color: black;
+  }
+  .about-img img {
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    border-radius: 10px;
+    object-fit: contain;
+  }
+  .about-text span {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #d18237;
+    display: grid;
+  }
+  .about-text p {
+    font-size:16px;
+    color: black;
+    margin: 20px;
+  }
+  .about .btn{
+    background-color: #d18237;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .about .btn:hover{
+    color: white;
+
+  }
+  

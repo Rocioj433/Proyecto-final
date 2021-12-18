@@ -1,0 +1,71 @@
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 30px;
+  background: #344a55;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.TextField{
+ color: #d56c44;
+}
+#outlined-multiline-static {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #d56c44;
+  font-size: 20px;
+  font-weight: bold;
+}
+#outlined-number {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #d56c44;
+  font-size: 20px;
+  font-weight: bold;
+}
+#outlined-required {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #d56c44;
+  font-size: 20px;
+  font-weight: bold;
+}
+#outlined-read-only-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #d56c44;
+  font-size: 20px;
+  font-weight: bold;
+}
+#outlined-label {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: cadetblue;
+  font-size: 20px;
+  border: none;
+  font-weight: bold;
+}
+.btn {
+  align-items: center;
+  height: 44px;
+  padding: 11px;
+  border-radius: 0;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #d56c44;
+  color: black;
+}
+.btn:hover{
+  color: white;
+  cursor: pointer;
+}
